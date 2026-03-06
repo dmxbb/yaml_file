@@ -1,0 +1,30 @@
+name: 生成 Clash 配置
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行转换脚本
+        run: python clash_converter.py
+
+      - name: 提交并推送配置文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/clash_config.yaml
+          git diff --cached --quiet || git commit -m "🔄 自动更新 Clash 配置 $(date '+%Y-%m-%d %H:%M')"
+          git push
