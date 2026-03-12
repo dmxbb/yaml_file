@@ -1,6 +1,6 @@
 # Clash 配置文件
-# 生成时间: 2026-03-12 08:45
-# 数据来源: 2026-03/12日16时40分.md
+# 生成时间: 2026-03-12 09:00
+# 数据来源: 2026-03/12日17时00分.md
 
 mixed-port: 7890
 allow-lan: false
@@ -9,91 +9,11 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "IEPL · 美国US · 36 · 深港IEPL"
-    type: trojan
-    server: 59.42.247.76
-    port: 28136
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 美国US · 36 · 沪港IEPL"
-    type: trojan
-    server: 120.197.94.136
-    port: 28136
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 美国US · 88 · 深港IEPL"
-    type: trojan
-    server: 59.42.247.76
-    port: 28109
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 美国US · 88 · 沪港IEPL"
-    type: trojan
-    server: 120.197.94.136
-    port: 28109
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
-    type: trojan
-    server: 59.42.247.76
-    port: 28175
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: ctldl.windowsupdate.com
-
-  - name: "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
-    type: trojan
-    server: 120.197.94.136
-    port: 28175
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: ctldl.windowsupdate.com
-
-  - name: "IEPL · 日本JP · 23 · 深港IEPL"
-    type: trojan
-    server: 59.42.247.76
-    port: 28113
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 日本JP · 23 · 沪港IEPL"
-    type: trojan
-    server: 120.197.94.136
-    port: 28113
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 日本JP · V8 · 深港IEPL"
-    type: trojan
-    server: 59.42.247.76
-    port: 28107
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
-  - name: "IEPL · 日本JP · V8 · 沪港IEPL"
-    type: trojan
-    server: 120.197.94.136
-    port: 28107
-    password: rtrRqpEYg
-    skip-cert-verify: true
-    sni: download.windowsupdate.com
-
   - name: "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
     type: trojan
     server: 59.42.247.76
     port: 28117
-    password: rtrRqpEYg
+    password: ZKLwXmNbb
     skip-cert-verify: true
     sni: ctldl.windowsupdate.com
 
@@ -101,9 +21,89 @@ proxies:
     type: trojan
     server: 120.197.94.136
     port: 28117
-    password: rtrRqpEYg
+    password: ZKLwXmNbb
     skip-cert-verify: true
     sni: ctldl.windowsupdate.com
+
+  - name: "IEPL · 美国US · 36 · 深港IEPL"
+    type: trojan
+    server: 59.42.247.76
+    port: 28136
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 美国US · 36 · 沪港IEPL"
+    type: trojan
+    server: 120.197.94.136
+    port: 28136
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 美国US · 88 · 深港IEPL"
+    type: trojan
+    server: 59.42.247.76
+    port: 28109
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 美国US · 88 · 沪港IEPL"
+    type: trojan
+    server: 120.197.94.136
+    port: 28109
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
+    type: trojan
+    server: 59.42.247.76
+    port: 28175
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: ctldl.windowsupdate.com
+
+  - name: "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
+    type: trojan
+    server: 120.197.94.136
+    port: 28175
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: ctldl.windowsupdate.com
+
+  - name: "IEPL · 日本JP · 23 · 深港IEPL"
+    type: trojan
+    server: 59.42.247.76
+    port: 28113
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 日本JP · 23 · 沪港IEPL"
+    type: trojan
+    server: 120.197.94.136
+    port: 28113
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 日本JP · V8 · 深港IEPL"
+    type: trojan
+    server: 59.42.247.76
+    port: 28107
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
+
+  - name: "IEPL · 日本JP · V8 · 沪港IEPL"
+    type: trojan
+    server: 120.197.94.136
+    port: 28107
+    password: ZKLwXmNbb
+    skip-cert-verify: true
+    sni: download.windowsupdate.com
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -112,6 +112,8 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🇯🇵 日本节点"
       - "🇺🇸 美国节点"
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
       - "IEPL · 美国US · 36 · 深港IEPL"
       - "IEPL · 美国US · 36 · 沪港IEPL"
       - "IEPL · 美国US · 88 · 深港IEPL"
@@ -122,14 +124,14 @@ proxy-groups:
       - "IEPL · 日本JP · 23 · 沪港IEPL"
       - "IEPL · 日本JP · V8 · 深港IEPL"
       - "IEPL · 日本JP · V8 · 沪港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
       - "IEPL · 美国US · 36 · 深港IEPL"
       - "IEPL · 美国US · 36 · 沪港IEPL"
       - "IEPL · 美国US · 88 · 深港IEPL"
@@ -140,18 +142,16 @@ proxy-groups:
       - "IEPL · 日本JP · 23 · 沪港IEPL"
       - "IEPL · 日本JP · V8 · 深港IEPL"
       - "IEPL · 日本JP · V8 · 沪港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
 
   - name: "🇯🇵 日本节点"
     type: select
     proxies:
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
+      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
       - "IEPL · 日本JP · 23 · 深港IEPL"
       - "IEPL · 日本JP · 23 · 沪港IEPL"
       - "IEPL · 日本JP · V8 · 深港IEPL"
       - "IEPL · 日本JP · V8 · 沪港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
-      - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
 
   - name: "🇺🇸 美国节点"
     type: select
@@ -166,18 +166,18 @@ proxy-groups:
   - name: "🎬 Netflix"
     type: select
     proxies:
-      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
-      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
       - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
       - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
+      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
+      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
 
   - name: "🤖 ChatGPT"
     type: select
     proxies:
-      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
-      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
       - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 深港IEPL"
       - "IEPL · 日本JP · A140 · Netflix日本 · ChatGPT解锁 · 沪港IEPL"
+      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 深港IEPL"
+      - "IEPL · 美国US · A250 · Netflix美国 · ChatGPT解锁 · 沪港IEPL"
 
   - name: "🐟 漏网之鱼"
     type: select
